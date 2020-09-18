@@ -65,7 +65,8 @@ class parking_lot:
         if "park" in user_input:
             
             vehicle_detail= user_input[1]+" "+user_input[2]
-            
+            #vehicle_detail=vehicle_detail.split()
+            #remove this
             parking.park(vehicle_detail)
 
 
@@ -121,4 +122,17 @@ if __name__ == "__main__":
 
 
 
-   
+   # mi=parking_lot()
+   # mi.create_parking_lot(int(input()))
+   # mi.park(input())
+   # mi.park("KA-01-HH-9999 White")
+   # mi.park("KA-01-BB-0001 Black")
+   # mi.park("KA-01-BB-0001 brown")
+   # mi.leave(2)
+   # mi.leave(3)
+   # mi.status()
+   # mi.registration_numbers_for_cars_with_colour("White")
+   # mi.slot_numbers_for_cars_with_colour("White")
+   # mi.slot_number_for_registration_number("KA-01-HH-1234")
+    
+    
